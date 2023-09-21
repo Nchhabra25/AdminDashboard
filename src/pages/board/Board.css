@@ -1,0 +1,64 @@
+/* Board.css */
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+  margin: 2rem; 
+  width: 100%;
+  height: 120vh;
+  }
+  
+  .taskcard {
+    flex: 1; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 1rem;
+    width: 100%;
+    background: var(--grey);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+  }
+  
+  .itemcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    margin-right: 2rem;
+  }
+  button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  .addbtn{
+    background: linear-gradient(45deg, #ff805d, #ffba00);
+    color: #fff;
+    font-size: 20px;
+    padding: 7px;
+    border-radius: 8px;
+
+  }
+  .items{
+    list-style: none;
+  }
+  .itemcard {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    margin: 4px;
+    width: 100%; 
+    
+    
+  }
+  .heading{
+    font-size: 1.2rem;
+  }
+  @media screen and (max-width:1025px){
+    .container {
+      margin: 0rem; 
+      }
+  }
